@@ -1,0 +1,66 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 700px;
+  background-color: #f6f6f6;
+}
+
+.poster {
+  width: 65%;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 30px;
+  align-self: center;
+  background: linear-gradient(to right, #e3e3e3, white);
+  box-shadow: 10px 5px 20px lightslategray;
+}
+
+.title {
+  display: flex;
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+.posterNo {
+  margin-left: auto;
+  align-self: flex-end;
+  font-size: 1.5rem;
+}
+
+.flexbox-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.flexbox-child1 {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  background-color: #bbe1f0;
+  border-radius: 50%;
+}
+
+.flexbox-child2 {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  background-color: #616365;
+  border-radius: 50%;
+}
+
+.flexbox-child3 {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  background-color: #04a565;
+  border-radius: 50%;
+}
