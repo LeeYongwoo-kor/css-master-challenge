@@ -1,0 +1,15 @@
+.grid {
+  display: grid;
+  color: white;
+  gap: 5px;
+  grid-template-columns: max-content min-content;
+  grid-template-rows: 100px;
+}
+
+.item:nth-child(even) {
+  background-color: #9e21ff;
+}
+
+.item:nth-child(odd) {
+  background-color: #2ecc71;
+}

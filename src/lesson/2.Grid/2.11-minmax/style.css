@@ -1,0 +1,37 @@
+.grid {
+  display: grid;
+  color: white;
+  gap: 5px;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+  grid-auto-rows: 100px;
+}
+
+.item:nth-child(even) {
+  background-color: #9e21ff;
+}
+
+.item:nth-child(odd) {
+  background-color: #2ecc71;
+}
+
+.header {
+  background-color: aqua;
+  align-self: end;
+  justify-self: center;
+}
+
+.nav {
+  background-color: bisque;
+  height: 40px;
+}
+
+.content {
+  background-color: darkcyan;
+  height: 40px;
+}
+
+.footer {
+  background-color: darkmagenta;
+  height: 40px;
+}
